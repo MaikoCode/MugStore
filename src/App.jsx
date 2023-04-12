@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <FloatingCard />
         {/* <ShoppingCart /> */}
-        <Routes>
+        <Routes index='/MugStore/'>
           <Route path='/MugStore/' element={<Home />}/>
           <Route path='/produits/' element={<Products />}/>
           <Route path='/produits/:id' element={<ProductShowcase />}/>
