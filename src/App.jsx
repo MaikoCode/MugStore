@@ -18,7 +18,7 @@ function App() {
         <FloatingCard />
         {/* <ShoppingCart /> */}
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route path='/MugStore/' element={<Home />}/>
           <Route path='/produits/' element={<Products />}/>
           <Route path='/produits/:id' element={<ProductShowcase />}/>
           <Route path='/shoppingCart/' element={<ShoppingCart />}/>
